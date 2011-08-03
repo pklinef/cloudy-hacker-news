@@ -1,0 +1,11 @@
+{
+  "name": "Cloudy HN",
+  "version": "0.1.0",
+  "description": "Changes the size of links on Hacker News based on their score.",
+  "content_scripts": [
+    {
+      "matches": ["http://news.ycombinator.com/*"],
+      "js" : ["cloudyhn.js"]
+    }
+  ]
+}
