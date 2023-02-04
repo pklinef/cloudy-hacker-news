@@ -1,7 +1,7 @@
 var max = 300;
 var divisionUnit = max / 10;
 var subtexts = document.querySelectorAll(".subtext");
-var titles = document.querySelectorAll(".storylink");
+var titles = document.querySelectorAll(".titleline");
 for (var i = 0; i < subtexts.length; i++) {
     var scoreEl = subtexts[i].querySelector(".score");
     if (!scoreEl) {
